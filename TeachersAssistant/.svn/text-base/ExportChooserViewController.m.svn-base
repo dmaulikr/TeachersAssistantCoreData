@@ -1,0 +1,675 @@
+//
+//  ExportChooserViewController.m
+//  TeachersAssistant
+//
+//  Created by Brian Slick on 10/7/11.
+//  Copyright 2011 BriTer Ideas LLC. All rights reserved.
+//
+
+#import "ExportChooserViewController.h"
+
+// Models and other global
+
+// Sub-controllers
+#import "ReportOptionsViewController.h"
+#import "CSVClassPickerViewController.h"
+
+// Views
+
+// Private Constants
+#define kBackupDestinationSectionKey			@"Backup"
+#define kBackupEmailRowKey						@"Send via Email"
+#define kBackupItunesRowKey						@"Save for iTunes"
+#define kBackupDropboxRowKey					@"Save to Dropbox"
+
+#define kReportSectionKey						@"Report"
+#define kReportEmailRowKey						@"Text Report via Email"
+
+#define kCSVEmailSectionKey						@"CSV Export"
+#define kCSVDemographicsRowKey					@"Student Demographics"
+#define kCSVActionsRowKey						@"Student Actions"
+
+
+@interface ExportChooserViewController ()
+
+// Private Properties
+@property (nonatomic, retain) NSMutableArray *sectionKeys;
+@property (nonatomic, retain) NSMutableDictionary *sectionContents;
+
+// Notification Handlers
+- (void)exportFileCreated:(NSNotification *)notification;
+- (void)exportFileCreatedForDropbox:(NSNotification *)notification;
+
+
+// UI Response Methods
+- (void)prepareExportFileForEmail;
+- (void)sendFullReportEmail;
+- (void)saveExportFile;
+- (void)prepareExportFileForDropbox;
+
+// Misc Methods
+- (void)emailFileAtPath:(NSString *)path;
+
+@end
+
+@implementation ExportChooserViewController
+
+#pragma mark - Synthesized Properties
+
+// Public
+@synthesize mainTableView = ivMainTableView;
+
+// Private
+@synthesize sectionKeys = ivSectionKeys;
+@synthesize sectionContents = ivSectionContents;
+
+#pragma mark - Dealloc and Memory Methods
+
+- (void)dealloc
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+	
+	// Clear delegates and other global references
+	
+	// Public Properties
+	[self setMainTableView:nil];
+	
+	
+	// Private Properties
+	[self setSectionKeys:nil];
+	[self setSectionContents:nil];
+	
+	
+    [super dealloc];
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+- (void)viewDidUnload
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+	
+	[super viewDidUnload];
+	
+	[self setMainTableView:nil];
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+#pragma mark - Custom Getters and Setters
+
+- (NSMutableArray *)sectionKeys
+{
+	if (ivSectionKeys == nil)
+	{
+		ivSectionKeys = [[NSMutableArray alloc] init];
+	}
+	return ivSectionKeys;
+}
+
+- (NSMutableDictionary *)sectionContents
+{
+	if (ivSectionContents == nil)
+	{
+		ivSectionContents = [[NSMutableDictionary alloc] init];
+	}
+	return ivSectionContents;
+}
+
+#pragma mark - Initialization and UI Creation Methods
+
+#pragma mark - UIViewController Methods
+
+- (void)viewDidLoad
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+	
+    [super viewDidLoad];
+	
+	[self setTitle:@"Export Data"];
+	
+	UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back"
+																   style:UIBarButtonItemStyleBordered
+																  target:nil
+																  action:nil];
+	[[self navigationItem] setBackBarButtonItem:backButton];
+	[backButton release], backButton = nil;
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+    
+    [super viewWillAppear:animated];
+    
+    [[self navigationController] setToolbarHidden:YES animated:YES];
+    
+	[[self sectionKeys] removeAllObjects];
+    [[self sectionContents] removeAllObjects];
+	
+	BOOL canSendMail = [MFMailComposeViewController canSendMail];
+	
+	NSMutableArray *backupOptions = [NSMutableArray array];
+	
+    if (canSendMail)
+    {
+        [backupOptions addObject:kBackupEmailRowKey];
+    }
+    
+    [backupOptions addObject:kBackupItunesRowKey];
+	[backupOptions addObject:kBackupDropboxRowKey];
+	
+	[[self sectionKeys] addObject:kBackupDestinationSectionKey];
+	[[self sectionContents] setObject:backupOptions forKey:kBackupDestinationSectionKey];
+	
+	if (canSendMail)
+	{
+		[[self sectionKeys] addObject:kReportSectionKey];
+		[[self sectionContents] setObject:[NSArray arrayWithObject:kReportEmailRowKey] forKey:kReportSectionKey];
+		
+		[[self sectionKeys] addObject:kCSVEmailSectionKey];
+		[[self sectionContents] setObject:[NSArray arrayWithObjects:kCSVDemographicsRowKey, kCSVActionsRowKey, nil] forKey:kCSVEmailSectionKey];
+	}
+	
+    [[self mainTableView] reloadData];
+    
+    NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+	
+	[super viewDidAppear:animated];
+	
+	
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+	
+	[super viewWillDisappear:animated];
+	
+	
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+	
+	[super viewDidDisappear:animated];
+	
+	
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+- (void)setEditing:(BOOL)editing
+		  animated:(BOOL)animated
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+	
+	[super setEditing:editing animated:animated];
+	
+	[[self mainTableView] setEditing:editing animated:animated];
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+#pragma mark - Notification Handlers
+
+- (void)exportFileCreated:(NSNotification *)notification
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+
+	NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
+	[notificationCenter removeObserver:self name:kDidCreateExportFileNotification object:nil];
+	
+	NSDictionary *userInfo = [notification userInfo];
+	NSString *zipPath = [userInfo objectForKey:kNotificationFilePathKey];
+	
+	NSFileManager *fileManager = [NSFileManager defaultManager];
+	
+	NSDictionary *fileAttributes = [fileManager attributesOfItemAtPath:zipPath error:nil];
+	
+	unsigned long long fileSize = [fileAttributes fileSize];
+	NSLog(@"fileSize is: %llu", fileSize);
+	
+	if (fileSize > 10000000)
+	{
+		RIButtonItem *cancelItem = [RIButtonItem item];
+		[cancelItem setLabel:@"Cancel"];
+		
+		RIButtonItem *tryItem = [RIButtonItem item];
+		[tryItem setLabel:@"Try Anyway"];
+		[tryItem setAction:^{
+			[self emailFileAtPath:zipPath];
+		}];
+		
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Large File Warning"
+														message:@"The backup file may be too large to email. Do you wish to proceed?"
+											   cancelButtonItem:cancelItem
+											   otherButtonItems:tryItem, nil];
+		[alert show];
+		[alert release], alert = nil;
+	}
+	else
+	{
+		[self emailFileAtPath:zipPath];
+	}
+
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+- (void)exportFileCreatedForDropbox:(NSNotification *)notification
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+
+	NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
+	[notificationCenter removeObserver:self name:kDidCreateExportFileNotification object:nil];;
+	
+	NSDictionary *userInfo = [notification userInfo];
+	NSString *zipPath = [userInfo objectForKey:kNotificationFilePathKey];
+	
+	[[DataController sharedDataController] prepareUploadToDropbox:zipPath];
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+#pragma mark - UI Response Methods
+
+- (void)prepareExportFileForEmail
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+
+	NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
+	[notificationCenter removeObserver:self name:kDidCreateExportFileNotification object:nil];
+	[notificationCenter addObserver:self selector:@selector(exportFileCreated:) name:kDidCreateExportFileNotification object:nil];
+	
+	DataController *dataController = [DataController sharedDataController];
+	
+	[dataController showProcessingAlertWithTitle:@"Saving..."];
+	
+	[dataController performSelector:@selector(createBackupDataFile) withObject:nil afterDelay:0.0];
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+- (void)sendFullReportEmail
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+
+	DataController *dataController = [DataController sharedDataController];
+	NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+	
+	NSString *person = [dataController singularNameForTermInfoIndentifier:kTermInfoIdentifierPerson];
+	
+	NSManagedObjectContext *context = [dataController managedObjectContext];
+	
+	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+	
+	[fetchRequest setEntity:[Person entityDescriptionInContextBTI:context]];
+	
+	switch ([userDefaults btiPersonSortMode]) {
+		case BTIPersonSortModeFirstLast:
+		{
+			[fetchRequest setSortDescriptors:[dataController descriptorArrayForFirstNameAlphabeticSort]];
+		}
+			break;
+		case BTIPersonSortModeLastFirst:
+		{
+			[fetchRequest setSortDescriptors:[dataController descriptorArrayForLastNameAlphabeticSort]];
+		}
+			break;
+		default:
+			break;
+	}
+	
+	NSArray *persons = [context executeFetchRequest:fetchRequest error:nil];
+	
+	[fetchRequest release], fetchRequest = nil;
+	
+	NSMutableString *messageBody = [NSMutableString string];
+	
+	for (Person *person in persons)
+	{
+		[messageBody appendString:@"\n\n"];
+		[messageBody appendString:[person summaryStringForEmail]];
+		[messageBody appendString:@"\n\n"];
+	}	
+	
+	NSString *subject = [NSString stringWithFormat:@"Teacher's Assistant %@ Report", person];
+		
+	MFMailComposeViewController *mailComposer = [[MFMailComposeViewController alloc] init];
+	[mailComposer setMailComposeDelegate:self];
+	
+	[mailComposer setSubject:subject];
+	[mailComposer setMessageBody:messageBody isHTML:NO];
+	
+	[self presentModalViewController:mailComposer animated:YES];
+	
+	
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+- (void)saveExportFile
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+
+	DataController *dataController = [DataController sharedDataController];
+	
+	[dataController showProcessingAlertWithTitle:@"Saving..."];
+	
+	[dataController performSelector:@selector(createBackupDataFile) withObject:nil afterDelay:0.0];
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+- (void)prepareExportFileForDropbox
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+	
+	NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
+	[notificationCenter removeObserver:self name:kDidCreateExportFileNotification object:nil];
+	[notificationCenter addObserver:self selector:@selector(exportFileCreatedForDropbox:) name:kDidCreateExportFileNotification object:nil];
+	
+	DataController *dataController = [DataController sharedDataController];
+	
+	[dataController showProcessingAlertWithTitle:@"Creating backup..."];
+	
+	[dataController performSelector:@selector(createBackupDataFile) withObject:nil afterDelay:0.0];
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+#pragma mark - Misc Methods
+
+- (void)emailFileAtPath:(NSString *)path
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+
+	NSString *fileName = [[path pathComponents] lastObject];
+	
+	NSData *emailData = [[NSData alloc] initWithContentsOfFile:path];
+	
+	MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc] init];
+	[mailController setMailComposeDelegate:self];
+	
+	[mailController setSubject:@"Teacher's Assistant Export Data"];
+	
+	[mailController setMessageBody:@"Teacher's Assistant Export Data file is attached." isHTML:NO];
+		
+	[mailController addAttachmentData:emailData
+							 mimeType:[NSString stringWithFormat:@"application/%@", kNativeFileExtension]
+							 fileName:fileName];
+	
+	[self presentModalViewController:mailController animated:YES];
+	
+//	[mailController release], mailController = nil;
+
+	[emailData release], emailData = nil;
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+#pragma mark - UITableView Datasource Methods
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+	
+	NSInteger sections = [[self sectionKeys] count];
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+	return sections;
+}
+
+- (NSString *)tableView:(UITableView *)tableView
+titleForHeaderInSection:(NSInteger)section
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+
+	NSString *header = [[self sectionKeys] objectAtIndex:section];
+
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+	return header;
+}
+
+- (NSString *)tableView:(UITableView *)tableView
+titleForFooterInSection:(NSInteger)section
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+
+	NSString *footer = nil;
+	
+	if (section == [[self sectionKeys] count] - 1)		// Should only appear with last section
+	{
+		BOOL canSendMail = [MFMailComposeViewController canSendMail];
+		
+		if (!canSendMail)
+		{
+			footer = @"Enable Email on this device for more export options";
+		}
+	}
+
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+	return footer;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView
+ numberOfRowsInSection:(NSInteger)section
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+	
+	NSString *sectionKey = [[self sectionKeys] objectAtIndex:section];
+	NSArray *contents = [[self sectionContents] objectForKey:sectionKey];
+	
+	NSInteger rows = [contents count];
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+	return rows;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView
+		 cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+	
+	NSString *sectionKey = [[self sectionKeys] objectAtIndex:[indexPath section]];
+	NSArray *contents = [[self sectionContents] objectForKey:sectionKey];
+	NSString *rowKey = [contents objectAtIndex:[indexPath row]];
+	
+	static NSString *CellIdentifier = @"CellIdentifier";
+	
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	if (cell == nil)
+	{
+		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+		[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
+	}
+	
+	if ([sectionKey isEqualToString:kCSVEmailSectionKey])
+	{
+		DataController *dataController = [DataController sharedDataController];
+		
+		NSString *student = [dataController singularNameForTermInfoIndentifier:kTermInfoIdentifierPerson];
+		NSString *actions = [dataController pluralNameForTermInfoIndentifier:kTermInfoIdentifierAction];
+		
+		if ([rowKey isEqualToString:kCSVDemographicsRowKey])
+		{
+			[[cell textLabel] setText:[NSString stringWithFormat:@"%@ Demographics", student]];
+		}
+		else if ([rowKey isEqualToString:kCSVActionsRowKey])
+		{
+			[[cell textLabel] setText:[NSString stringWithFormat:@"%@ %@", student, actions]];
+		}
+	}
+	else
+	{
+		[[cell textLabel] setText:rowKey];
+	}
+//	if ([rowString isEqualToString:kEmailFullReportKey])
+//	{
+//		NSString *persons = [[DataController sharedDataController] pluralNameForTermInfoIndentifier:kTermInfoIdentifierPerson];
+//		[[cell textLabel] setText:[NSString stringWithFormat:@"All %@ report via email", persons]];
+//	}
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+	return cell;
+}
+
+#pragma mark - UITableView Delegate Methods
+
+- (void)tableView:(UITableView *)tableView
+didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+	
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+	
+	NSString *sectionKey = [[self sectionKeys] objectAtIndex:[indexPath section]];
+	NSArray *contents = [[self sectionContents] objectForKey:sectionKey];
+	NSString *rowKey = [contents objectAtIndex:[indexPath row]];
+	
+	if ([rowKey isEqualToString:kBackupEmailRowKey])
+	{
+		[self prepareExportFileForEmail];
+	}
+	else if ([rowKey isEqualToString:kReportEmailRowKey])
+	{
+		ReportOptionsViewController *nextViewController = [[ReportOptionsViewController alloc] init];
+		
+		[[self navigationController] pushViewController:nextViewController animated:YES];
+		
+		[nextViewController release], nextViewController = nil;
+	}
+	else if ([rowKey isEqualToString:kBackupItunesRowKey])
+	{
+		[self saveExportFile];
+	}
+	else if ([rowKey isEqualToString:kBackupDropboxRowKey])
+	{
+		if ([[DBSession sharedSession] isLinked])
+		{
+			[self prepareExportFileForDropbox];
+		}
+		else
+		{
+			[[DBSession sharedSession] link];
+			
+//			DBLoginController *loginController = [[DBLoginController new] autorelease];
+//			[loginController setDelegate:self];
+//			
+//			if ([[DataController sharedDataController] isIPadVersion])
+//			{
+//				[loginController presentFromController:[self splitViewController]];
+//			}
+//			else
+//			{
+//				[loginController presentFromController:self];
+//			}
+		}
+	}
+	else if ([rowKey isEqualToString:kCSVDemographicsRowKey])
+	{
+		CSVClassPickerViewController *nextViewController = [[CSVClassPickerViewController alloc] init];
+		[nextViewController setExportMode:BTICSVExportModeDemographics];
+		
+		[[self navigationController] pushViewController:nextViewController animated:YES];
+		
+		[nextViewController release], nextViewController = nil;
+	}
+	else if ([rowKey isEqualToString:kCSVActionsRowKey])
+	{
+		CSVClassPickerViewController *nextViewController = [[CSVClassPickerViewController alloc] init];
+		[nextViewController setExportMode:BTICSVExportModeActions];
+		
+		[[self navigationController] pushViewController:nextViewController animated:YES];
+		
+		[nextViewController release], nextViewController = nil;
+	}
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+#pragma mark -
+#pragma mark MFMailComposeViewController Delegate Methods
+
+- (void)mailComposeController:(MFMailComposeViewController *)controller
+		  didFinishWithResult:(MFMailComposeResult)result
+						error:(NSError *)error 
+{   
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+	
+    switch (result)
+    {
+		case MFMailComposeResultCancelled:
+            break;
+        case MFMailComposeResultSaved:
+            break;
+        case MFMailComposeResultSent:
+            break;
+        case MFMailComposeResultFailed:
+            break;
+		default:
+		{
+			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Email Error"
+															message:@"Unknown error. Your mail was not sent."
+														   delegate:nil
+												  cancelButtonTitle:@"OK"
+												  otherButtonTitles:nil];
+			[alert show];
+			[alert release], alert = nil;
+		}
+			break;
+    }
+	
+    [self dismissModalViewControllerAnimated:YES];
+	
+	[controller release], controller = nil;
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+#pragma mark -
+#pragma mark UIAlertViewDelegate Methods
+
+- (void)alertView:(UIAlertView *)alertView
+clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+	
+	
+	
+	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+}
+
+#pragma mark - DBLoginControllerDelegate Methods
+
+//- (void)loginControllerDidLogin:(DBLoginController *)controller
+//{
+//	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+//
+//	[self prepareExportFileForDropbox];
+//	
+//	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+//}
+//
+//- (void)loginControllerDidCancel:(DBLoginController *)controller
+//{
+//	NSLog(@">>> Entering %s <<<", __PRETTY_FUNCTION__);
+//	
+//	NSLog(@"Login cancelled.");
+//	
+//	NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+//}
+
+@end

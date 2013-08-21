@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib
+END
+inffast.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/inffast.h
+END
+inffixed.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/inffixed.h
+END
+deflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/deflate.c
+END
+zlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/zlib.h
+END
+zutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/zutil.c
+END
+gzio.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/gzio.c
+END
+deflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/deflate.h
+END
+crc32.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/crc32.c
+END
+zutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/zutil.h
+END
+inftrees.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/inftrees.c
+END
+crc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/crc32.h
+END
+trees.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/trees.c
+END
+inflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/inflate.c
+END
+uncompr.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/uncompr.c
+END
+inftrees.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/inftrees.h
+END
+zconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/zconf.h
+END
+inflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/inflate.h
+END
+trees.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/trees.h
+END
+inffast.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/inffast.c
+END
+compress.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/compress.c
+END
+adler32.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/adler32.c
+END
+infback.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ZLib/infback.c
+END

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>http://www.3d-islands.com/application/iPhone/OTA/20121231/TeachersAssistant.ipa</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.stbarth-3d-islands.aisvoile2013lite</string>
+				<key>bundle-version</key>
+				<string>5.5.4</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>2.0.0627</string>
+				<key>title</key>
+				<string>TeachersAssistant</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

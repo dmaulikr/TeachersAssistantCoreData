@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers
+END
+DropboxSDK-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DropboxSDK-Prefix.pch
+END
+MPOAuthCredentialConcreteStore+KeychainAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/MPOAuthCredentialConcreteStore+KeychainAdditions.h
+END
+NSURL+MPURLParameterAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/NSURL+MPURLParameterAdditions.h
+END
+DBError.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DBError.h
+END
+DBQuota.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DBQuota.h
+END
+MPOAuthAPI.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/MPOAuthAPI.h
+END
+MPOAuthCredentialConcreteStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/MPOAuthCredentialConcreteStore.h
+END
+MPOAuthURLRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/MPOAuthURLRequest.h
+END
+UIAlertView+Dropbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/UIAlertView+Dropbox.h
+END
+MPOAuthAuthenticationMethod.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/MPOAuthAuthenticationMethod.h
+END
+DBAccountInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DBAccountInfo.h
+END
+NSString+URLEscapingAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/NSString+URLEscapingAdditions.h
+END
+DBSession+iOS.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DBSession+iOS.h
+END
+MPOAuthURLResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/MPOAuthURLResponse.h
+END
+NSDictionary+Dropbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/NSDictionary+Dropbox.h
+END
+NSString+Dropbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/NSString+Dropbox.h
+END
+NSObject+DBJSON.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/NSObject+DBJSON.h
+END
+NSString+DBJSON.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/NSString+DBJSON.h
+END
+MPDebug.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/MPDebug.h
+END
+MPOAuthCredentialStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/MPOAuthCredentialStore.h
+END
+DBMetadata.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DBMetadata.h
+END
+DBLog.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DBLog.h
+END
+DBSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DBSession.h
+END
+DBJsonParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DBJsonParser.h
+END
+MPOAuthConnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/MPOAuthConnection.h
+END
+DBRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DBRequest.h
+END
+MPOAuthSignatureParameter.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/MPOAuthSignatureParameter.h
+END
+NSURLResponse+Encoding.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/NSURLResponse+Encoding.h
+END
+MPOAuthParameterFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/MPOAuthParameterFactory.h
+END
+MPOAuthAPIRequestLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/MPOAuthAPIRequestLoader.h
+END
+JSON.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/JSON.h
+END
+Base64Transcoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/Base64Transcoder.h
+END
+MPURLRequestParameter.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/MPURLRequestParameter.h
+END
+DBJsonBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DBJsonBase.h
+END
+DBJsonWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DBJsonWriter.h
+END
+MPOAuth.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/MPOAuth.h
+END
+MPOAuthAuthenticationMethodOAuth.h
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/MPOAuthAuthenticationMethodOAuth.h
+END
+DropboxSDK.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DropboxSDK.h
+END
+DBJSON.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DBJSON.h
+END
+DBDeltaEntry.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DBDeltaEntry.h
+END
+DBRestClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DBRestClient.h
+END
+DBDefines.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/tap-core-data/!svn/ver/237/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxSDK/DropboxSDK.framework/Headers/DBDefines.h
+END

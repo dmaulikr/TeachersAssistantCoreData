@@ -1,0 +1,160 @@
+//
+//  DataController.h
+//  TeachersAssistant
+//
+//  Created by Brian Slick on 9/14/11.
+//  Copyright 2011 BriTer Ideas LLC. All rights reserved.
+//
+
+#import <MessageUI/MFMailComposeViewController.h>
+
+@class ActionFieldInfo;
+@class Action;
+@class TermInfo;
+@class Person;
+@class Parent;
+@class ClassPeriod;
+@class ColorInfo;
+@class MediaInfo;
+@class ObsoleteDataController;
+@class DBRestClient;
+@class GradingPeriod;
+
+// Public Constants
+
+
+@interface DataController : NSObject <UIAlertViewDelegate, DBRestClientDelegate, MFMailComposeViewControllerDelegate>
+{    
+}
+
+// Public Properties
+
+#pragma mark - File/Directory Properties
+@property (nonatomic, copy, readonly) NSString *documentsDirectory;
+@property (nonatomic, copy, readonly) NSString *libraryApplicationSupportDirectory;
+@property (nonatomic, copy, readonly) NSString *imageDirectory;
+@property (nonatomic, copy, readonly) NSString *audioDirectory;
+@property (nonatomic, copy, readonly) NSString *videoDirectory;
+
+#pragma mark - Core Data Properties
+@property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
+@property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+#pragma mark - Helper Properties
+@property (nonatomic, assign, readonly, getter=isLiteVersion) BOOL liteVersion;
+@property (nonatomic, assign, readonly, getter=isIPadVersion) BOOL iPadVersion;
+@property (nonatomic, retain, readonly) NSArray *descriptorArrayForFirstNameAlphabeticSort;
+@property (nonatomic, retain, readonly) NSArray *descriptorArrayForLastNameAlphabeticSort;
+@property (nonatomic, retain, readonly) NSArray *descriptorArrayForManualSortOrderSort;
+@property (nonatomic, retain, readonly) NSArray *descriptorArrayForNameAlphabeticSort;
+
+#pragma mark - Misc Properties
+@property (nonatomic, retain, readonly) Action *defaultAction;
+@property (nonatomic, retain, readonly) Action *filterAction;
+@property (nonatomic, copy) NSDictionary *importedUpgradeData;
+@property (nonatomic, copy) NSString *importedFilePath;
+@property (nonatomic, retain) ObsoleteDataController *obsoleteDataController;
+@property (nonatomic, retain) GradingPeriod *activeGradingPeriod;
+@property (nonatomic, retain) NSMutableArray *gradingPeriods;
+@property (nonatomic, assign, getter = isImageCleanupEnabled) BOOL imageCleanupEnabled;
+@property (nonatomic, retain) ActionFieldInfo *actionActionFieldInfoInMainContext;
+@property (nonatomic, retain) ActionFieldInfo *dateActionFieldInfoInMainContext;
+@property (nonatomic, retain) NSArray *allSortedActionFieldInfosInMainContext;
+
+#pragma mark - Singleton access
++ (DataController *)sharedDataController;
+
+#pragma mark - Saving and reloading methods
+- (void)loadAllData;
+- (void)loadDefaultTermInfo;
+- (void)loadDefaultActionFieldInfo;
+- (void)loadDefaultGradingPeriods;
+- (void)saveAllData;
+- (void)saveCoreDataContext;
+- (void)saveManagedObjectContext:(NSManagedObjectContext *)context;
+
+#pragma mark - Data Exchange Methods
+- (NSString *)createBackupDataFile;			// Return value is path to file
+- (NSURL *)urlForFullVersionExport;
+- (void)prepareUploadToDropbox:(NSString *)sourcePath;
+
+#pragma mark - Other Public Methods
+- (void)deleteAllData;
+- (void)deleteAllUserData;
+- (void)deleteAllPickerValues;
+- (void)processImportedFileAtPath:(NSString *)path;
+- (void)showProcessingAlertWithTitle:(NSString *)title;
+- (void)hideProcessingAlert;
+- (void)sendSupportEmailFromViewController:(id)parentViewController;
+
+#pragma mark - File Methods
+- (NSString *)validImageFileName;
+- (NSString *)validNativeFileName;
+
+#pragma mark - Person Methods
+- (NSInteger)countOfPersons;
+- (void)deleteAllPersons;
+- (void)deletePerson:(Person *)person;
+- (void)deleteAllActionsInPerson:(Person *)person;
+- (void)filterPersons;
+//- (void)addMediaInfoForPerson:(Person *)person;
+- (void)removeMediaInfoForPerson:(Person *)person;
+- (UIImage *)largePersonThumbnailImageFromImage:(UIImage *)originalImage;
+- (UIImage *)smallPersonThumbnailImageFromImage:(UIImage *)originalImage;
+- (void)resetPointTotalsForAllPersons;
+- (void)resetGradingPeriodActionTotalForAllPersons;
+- (NSNumber *)colorLabelPointTotalForPerson:(Person *)person inGradingPeriod:(GradingPeriod *)gradingPeriod;
+
+#pragma mark - Parent Methods
+- (Parent *)makeParentInContext:(NSManagedObjectContext *)context
+		  fromAddressBookPerson:(ABRecordRef)personRef
+				   withFullName:(BOOL)isFullName;
+
+#pragma mark - ClassPeriod Methods
+- (void)loadDefaultClassPeriods;
+- (NSInteger)countOfClassPeriods;
+- (void)deleteAllClassPeriods;
+- (ClassPeriod *)classPeriodWithName:(NSString *)name;
+
+#pragma mark - Action Methods
+- (void)deleteAllActions;
+- (void)deleteAction:(Action *)action;
+- (NSFetchRequest *)actionFetchRequestForPerson:(Person *)person;
+- (void)filterActions:(NSSet *)actions;
+- (NSSet *)actionsPassingFilterTestFromActions:(NSSet *)actions;
+
+#pragma mark - Action Value Methods
+- (UIImage *)removeOrientationFromImage:(UIImage *)originalImage;
+- (UIImage *)largeActionValueImageFromImage:(UIImage *)originalImage;
+- (UIImage *)smallActionValueImageFromImage:(UIImage *)originalImage;
+
+#pragma mark - ActionFieldInfo Methods
+- (NSInteger)countOfActionFieldInfos;
+- (ActionFieldInfo *)actionFieldInfoForIdentifier:(NSString *)identifier;
+- (ActionFieldInfo *)actionFieldInfoForIdentifier:(NSString *)identifier inContext:(NSManagedObjectContext *)context;
+- (NSArray *)allSortedActionFieldInfosInContext:(NSManagedObjectContext *)context;
+- (ActionFieldInfo *)actionActionFieldInfoInContext:(NSManagedObjectContext *)context;
+- (ActionFieldInfo *)dateActionFieldInfoInContext:(NSManagedObjectContext *)context;
+
+#pragma mark - ColorInfo Methods
+- (UIImage *)thumbnailImageForColorInfo:(ColorInfo *)colorInfo;
+
+#pragma mark - MediaInfo Methods
+- (void)addFileForMediaInfo:(MediaInfo *)mediaInfo;
+- (void)removeFileForMediaInfo:(MediaInfo *)mediaInfo;
+- (void)purgeUnusedMediaInfos;
+- (void)deleteMediaInfo:(MediaInfo *)mediaInfo;
+
+#pragma mark - TermInfo Methods
+- (TermInfo *)termInfoForIdentifier:(NSString *)identifier;
+- (NSString *)singularNameForTermInfo:(TermInfo *)termInfo;
+- (NSString *)singularNameForTermInfoIndentifier:(NSString *)identifier;
+- (NSString *)pluralNameForTermInfo:(TermInfo *)termInfo;
+- (NSString *)pluralNameForTermInfoIndentifier:(NSString *)identifier;
+- (void)resetAllTermInfosToDefault;
+
+#pragma mark - PersonDetailInfo Methods
+- (void)deleteAllPersonDetailInfos;
+
+@end

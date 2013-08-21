@@ -1,0 +1,89 @@
+//
+// Prefix header for all source files of the 'TeachersAssistant' target in the 'TeachersAssistant' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+// Libraries
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import <AddressBook/AddressBook.h>
+#import <AddressBookUI/AddressBookUI.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <MessageUI/MessageUI.h>
+#import <DropboxSDK/DropboxSDK.h>
+
+// Categories
+#import "NSUserDefaults+BTIAdditions.h"
+#import "NSNotificationCenter+BTIAdditions.h"
+#import "UIImage+Alpha.h"
+#import "UIImage+Resize.h"
+#import "UIImage+RoundedCorner.h"
+#import "UITableView+MDAdditions.h"
+#import "Action+BTIAdditions.h"
+#import "ActionValue+BTIAdditions.h"
+#import "Person+BTIAdditions.h"
+#import "Parent+BTIAdditions.h"
+#import "ActionFieldInfo+BTIAdditions.h"
+#import "NSString+BTIAdditions.h"
+#import "EmailAddress+BTIAdditions.h"
+#import "PhoneNumber+BTIAdditions.h"
+#import "MediaInfo+BTIAdditions.h"
+#import "TermInfo+BTIAdditions.h"
+#import "ClassPeriod+BTIAdditions.h"
+#import "ColorInfo+BTIAdditions.h"
+#import "CommonAttributes+BTIAdditions.h"
+#import "PickerValue+BTIAdditions.h"
+#import "UIActionSheet+Blocks.h"
+#import "UIAlertView+Blocks.h"
+#import "NSObject+PWObject.h"
+#import "BTIErrorCategories.h"
+#import "NSManagedObject+BTIAdditions.h"
+
+// Other Global
+#import "TeachersAssistantAppDelegate.h"
+#import "TeachersAssistantAppDelegate_iPhone.h"
+#import "TeachersAssistantAppDelegate_iPad.h"
+
+
+// Models
+#import "DataController.h"
+#import "ObsoleteDataController.h"
+#import "Constants.h"
+#import "CommonAttributes.h"
+#import "Action.h"
+#import "ActionFieldInfo.h"
+#import "ActionValue.h"
+#import "ClassPeriod.h"
+#import "ColorInfo.h"
+#import "EmailAddress.h"
+#import "MediaInfo.h"
+#import "Parent.h"
+#import "Person.h"
+#import "PersonDetailInfo.h"
+#import "PersonDetailValue.h"
+#import "PickerValue.h"
+#import "PhoneNumber.h"
+#import "RandomizerInfo.h"
+#import "TermInfo.h"
+#import "GradingPeriod.h"
+
+// Misc
+#import "UIColorTransformer.h"
+
+#endif
+
+
+// http://clingingtoideas.blogspot.com/2009/08/it-nslog-nslog.html
+#ifdef DCBLOCKNSLOGSTATEMENTS
+#define NSLog(format, ...)
+#else
+#define NSLog(format, ...) NSLog(format, ## __VA_ARGS__)
+#endif

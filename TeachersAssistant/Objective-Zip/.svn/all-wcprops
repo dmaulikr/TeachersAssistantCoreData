@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/Objective-Zip
+END
+ZipWriteStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/Objective-Zip/ZipWriteStream.h
+END
+FileInZipInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/Objective-Zip/FileInZipInfo.m
+END
+ZipReadStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/Objective-Zip/ZipReadStream.h
+END
+ZipWriteStream.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/Objective-Zip/ZipWriteStream.m
+END
+ZipReadStream.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/Objective-Zip/ZipReadStream.m
+END
+ZipException.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/Objective-Zip/ZipException.h
+END
+ZipFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/Objective-Zip/ZipFile.h
+END
+FileInZipInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/Objective-Zip/FileInZipInfo.h
+END
+ZipException.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/Objective-Zip/ZipException.m
+END
+ZipFile.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/Objective-Zip/ZipFile.m
+END

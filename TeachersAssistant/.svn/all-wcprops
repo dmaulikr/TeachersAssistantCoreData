@@ -1,0 +1,2459 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/tap-core-data/!svn/ver/296/trunk/TeachersAssistantCoreData/TeachersAssistant
+END
+ColorInfoDetailsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/127/trunk/TeachersAssistantCoreData/TeachersAssistant/ColorInfoDetailsViewController.xib
+END
+ImportCSVViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ImportCSVViewController.m
+END
+PersonActionsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonActionsViewController.m
+END
+Action+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/tap-core-data/!svn/ver/296/trunk/TeachersAssistantCoreData/TeachersAssistant/Action+BTIAdditions.m
+END
+redX.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/tap-core-data/!svn/ver/217/trunk/TeachersAssistantCoreData/TeachersAssistant/redX.png
+END
+StudentOrderChooserViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/4/trunk/TeachersAssistantCoreData/TeachersAssistant/StudentOrderChooserViewController.xib
+END
+ActionDetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailViewController.h
+END
+Icon@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/Icon@2x.png
+END
+ActionDetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/289/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailViewController.m
+END
+ParentInfoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentInfoViewController.h
+END
+PersonFilterViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/18/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonFilterViewController.xib
+END
+ParentInfoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/291/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentInfoViewController.m
+END
+EmailActionPickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/16/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailActionPickerViewController.xib
+END
+GradingPeriod.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/tap-core-data/!svn/ver/179/trunk/TeachersAssistantCoreData/TeachersAssistant/GradingPeriod.h
+END
+GradingPeriod.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/tap-core-data/!svn/ver/296/trunk/TeachersAssistantCoreData/TeachersAssistant/GradingPeriod.m
+END
+ActionValue+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/203/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionValue+BTIAdditions.h
+END
+LongTextDetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/LongTextDetailViewController.h
+END
+PersonClassPeriodPickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/tap-core-data/!svn/ver/15/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonClassPeriodPickerViewController.xib
+END
+PersonInfoParentCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/tap-core-data/!svn/ver/228/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonInfoParentCell.xib
+END
+ActionValue+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionValue+BTIAdditions.m
+END
+LongTextDetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/LongTextDetailViewController.m
+END
+ActionDetailViewController_iPad.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/tap-core-data/!svn/ver/51/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailViewController_iPad.h
+END
+AssignActionsFillerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/tap-core-data/!svn/ver/25/trunk/TeachersAssistantCoreData/TeachersAssistant/AssignActionsFillerViewController.xib
+END
+ActionDetailViewController_iPad.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailViewController_iPad.m
+END
+IconLite-72@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/tap-core-data/!svn/ver/211/trunk/TeachersAssistantCoreData/TeachersAssistant/IconLite-72@2x.png
+END
+ObsoleteDataController.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/tap-core-data/!svn/ver/74/trunk/TeachersAssistantCoreData/TeachersAssistant/ObsoleteDataController.h
+END
+PickerValue.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/222/trunk/TeachersAssistantCoreData/TeachersAssistant/PickerValue.h
+END
+Constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/295/trunk/TeachersAssistantCoreData/TeachersAssistant/Constants.h
+END
+PersonInfoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/tap-core-data/!svn/ver/35/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonInfoViewController.xib
+END
+CSVClassPickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/CSVClassPickerViewController.h
+END
+ClassPeriodInfoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/252/trunk/TeachersAssistantCoreData/TeachersAssistant/ClassPeriodInfoViewController.xib
+END
+PickerValue.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/222/trunk/TeachersAssistantCoreData/TeachersAssistant/PickerValue.m
+END
+CSVPersonPickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/CSVPersonPickerViewController.h
+END
+ObsoleteDataController.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ObsoleteDataController.m
+END
+ReportOptionsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/179/trunk/TeachersAssistantCoreData/TeachersAssistant/ReportOptionsViewController.xib
+END
+PersonInfoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonInfoViewController.h
+END
+ParentEmailerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/79/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentEmailerViewController.xib
+END
+CSVClassPickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/CSVClassPickerViewController.m
+END
+TeachersAssistantAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/160/trunk/TeachersAssistantCoreData/TeachersAssistant/TeachersAssistantAppDelegate.h
+END
+CSVPersonPickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/CSVPersonPickerViewController.m
+END
+PersonInfoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/291/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonInfoViewController.m
+END
+StudentDetailsListViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/StudentDetailsListViewController.h
+END
+TeachersAssistantAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/289/trunk/TeachersAssistantCoreData/TeachersAssistant/TeachersAssistantAppDelegate.m
+END
+StudentDetailsListViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/StudentDetailsListViewController.m
+END
+Infraction.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/69/trunk/TeachersAssistantCoreData/TeachersAssistant/Infraction.h
+END
+facebook_logo@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/tap-core-data/!svn/ver/212/trunk/TeachersAssistantCoreData/TeachersAssistant/facebook_logo@2x.png
+END
+Infraction.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/69/trunk/TeachersAssistantCoreData/TeachersAssistant/Infraction.m
+END
+BTIPersonFilterPointsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/BTIPersonFilterPointsViewController.h
+END
+BTIPersonFilterPointsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/BTIPersonFilterPointsViewController.m
+END
+UIImage+Resize.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/UIImage+Resize.h
+END
+ParentMessagerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentMessagerViewController.h
+END
+PersonFilterPickerInfoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/tap-core-data/!svn/ver/18/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonFilterPickerInfoViewController.xib
+END
+UIImage+Resize.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/tap-core-data/!svn/ver/277/trunk/TeachersAssistantCoreData/TeachersAssistant/UIImage+Resize.m
+END
+DiagnosticViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/DiagnosticViewController.h
+END
+ParentMessagerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentMessagerViewController.m
+END
+facebook_logo.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/facebook_logo.png
+END
+DiagnosticViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/DiagnosticViewController.m
+END
+EmailBlastClassPickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/tap-core-data/!svn/ver/147/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailBlastClassPickerViewController.xib
+END
+GradingPeriodDetailViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/tap-core-data/!svn/ver/184/trunk/TeachersAssistantCoreData/TeachersAssistant/GradingPeriodDetailViewController.xib
+END
+ReportClassPickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ReportClassPickerViewController.h
+END
+ReportPersonPickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ReportPersonPickerViewController.h
+END
+NSNotificationCenter+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/234/trunk/TeachersAssistantCoreData/TeachersAssistant/NSNotificationCenter+BTIAdditions.h
+END
+ScreenLockSettingsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/26/trunk/TeachersAssistantCoreData/TeachersAssistant/ScreenLockSettingsViewController.xib
+END
+ReportClassPickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ReportClassPickerViewController.m
+END
+ReportPersonPickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ReportPersonPickerViewController.m
+END
+Person.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/tap-core-data/!svn/ver/251/trunk/TeachersAssistantCoreData/TeachersAssistant/Person.h
+END
+NSNotificationCenter+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/295/trunk/TeachersAssistantCoreData/TeachersAssistant/NSNotificationCenter+BTIAdditions.m
+END
+PersonFilterBooleanViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/tap-core-data/!svn/ver/18/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonFilterBooleanViewController.xib
+END
+Person.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/tap-core-data/!svn/ver/251/trunk/TeachersAssistantCoreData/TeachersAssistant/Person.m
+END
+BTILoadingHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/tap-core-data/!svn/ver/95/trunk/TeachersAssistantCoreData/TeachersAssistant/BTILoadingHelper.h
+END
+AllClassPeriodsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/tap-core-data/!svn/ver/15/trunk/TeachersAssistantCoreData/TeachersAssistant/AllClassPeriodsViewController.xib
+END
+ActionImageViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionImageViewController.h
+END
+NSUserDefaults+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/276/trunk/TeachersAssistantCoreData/TeachersAssistant/NSUserDefaults+BTIAdditions.h
+END
+BTILoadingHelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/tap-core-data/!svn/ver/95/trunk/TeachersAssistantCoreData/TeachersAssistant/BTILoadingHelper.m
+END
+person_75x75.png
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/tap-core-data/!svn/ver/86/trunk/TeachersAssistantCoreData/TeachersAssistant/person_75x75.png
+END
+reverse@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/246/trunk/TeachersAssistantCoreData/TeachersAssistant/reverse@2x.png
+END
+PickerInfoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/263/trunk/TeachersAssistantCoreData/TeachersAssistant/PickerInfoViewController.xib
+END
+ActionImageViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionImageViewController.m
+END
+NSUserDefaults+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/276/trunk/TeachersAssistantCoreData/TeachersAssistant/NSUserDefaults+BTIAdditions.m
+END
+Icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/Icon.png
+END
+UIImage+RoundedCorner.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/UIImage+RoundedCorner.h
+END
+PersonActionsCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/tap-core-data/!svn/ver/223/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonActionsCell.h
+END
+BTITableSectionInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/tap-core-data/!svn/ver/151/trunk/TeachersAssistantCoreData/TeachersAssistant/BTITableSectionInfo.h
+END
+UIImage+RoundedCorner.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/tap-core-data/!svn/ver/277/trunk/TeachersAssistantCoreData/TeachersAssistant/UIImage+RoundedCorner.m
+END
+PersonActionsCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/tap-core-data/!svn/ver/223/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonActionsCell.m
+END
+BTITableSectionInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/tap-core-data/!svn/ver/151/trunk/TeachersAssistantCoreData/TeachersAssistant/BTITableSectionInfo.m
+END
+ClassPeriodPersonPickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ClassPeriodPersonPickerViewController.h
+END
+JumpChooserViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/JumpChooserViewController.h
+END
+ColorInfoDetailsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ColorInfoDetailsViewController.h
+END
+person_120x120.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/tap-core-data/!svn/ver/87/trunk/TeachersAssistantCoreData/TeachersAssistant/person_120x120.png
+END
+ClassPeriodPersonPickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ClassPeriodPersonPickerViewController.m
+END
+JumpChooserViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/JumpChooserViewController.m
+END
+HomeDetailViewController_iPad.xib
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/273/trunk/TeachersAssistantCoreData/TeachersAssistant/HomeDetailViewController_iPad.xib
+END
+ActionFieldInfoDetailsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionFieldInfoDetailsViewController.h
+END
+ActionDetailImageCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailImageCell.h
+END
+CSVTableCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/262/trunk/TeachersAssistantCoreData/TeachersAssistant/CSVTableCell.h
+END
+ColorInfoDetailsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ColorInfoDetailsViewController.m
+END
+greenCheck@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/tap-core-data/!svn/ver/217/trunk/TeachersAssistantCoreData/TeachersAssistant/greenCheck@2x.png
+END
+ActionFieldInfoDetailsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionFieldInfoDetailsViewController.m
+END
+ActionDetailImageCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailImageCell.m
+END
+CSVTableCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/262/trunk/TeachersAssistantCoreData/TeachersAssistant/CSVTableCell.m
+END
+paper_background_1004x768@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/tap-core-data/!svn/ver/213/trunk/TeachersAssistantCoreData/TeachersAssistant/paper_background_1004x768@2x.png
+END
+HomeViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/tap-core-data/!svn/ver/2/trunk/TeachersAssistantCoreData/TeachersAssistant/HomeViewController.xib
+END
+AssignActionsPersonPickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/tap-core-data/!svn/ver/24/trunk/TeachersAssistantCoreData/TeachersAssistant/AssignActionsPersonPickerViewController.xib
+END
+line.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/line.png
+END
+AssignActionsPersonPickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/AssignActionsPersonPickerViewController.h
+END
+logo_twitter@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/tap-core-data/!svn/ver/212/trunk/TeachersAssistantCoreData/TeachersAssistant/logo_twitter@2x.png
+END
+ActionDetailColorCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/tap-core-data/!svn/ver/89/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailColorCell.xib
+END
+SettingsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/tap-core-data/!svn/ver/4/trunk/TeachersAssistantCoreData/TeachersAssistant/SettingsViewController.xib
+END
+DefinePINViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/26/trunk/TeachersAssistantCoreData/TeachersAssistant/DefinePINViewController.xib
+END
+AssignActionsPersonPickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/tap-core-data/!svn/ver/290/trunk/TeachersAssistantCoreData/TeachersAssistant/AssignActionsPersonPickerViewController.m
+END
+RandomPersonPickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/tap-core-data/!svn/ver/240/trunk/TeachersAssistantCoreData/TeachersAssistant/RandomPersonPickerViewController.xib
+END
+GradingPeriodDetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/GradingPeriodDetailViewController.h
+END
+EmailBlastClassPickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailBlastClassPickerViewController.h
+END
+ParentDialerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/22/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentDialerViewController.xib
+END
+GradingPeriodDetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/GradingPeriodDetailViewController.m
+END
+EmailBlastClassPickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailBlastClassPickerViewController.m
+END
+ScreenLockSettingsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ScreenLockSettingsViewController.h
+END
+ParentDialerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentDialerViewController.h
+END
+DataController.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/tap-core-data/!svn/ver/295/trunk/TeachersAssistantCoreData/TeachersAssistant/DataController.h
+END
+ScreenLockSettingsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ScreenLockSettingsViewController.m
+END
+ParentDialerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentDialerViewController.m
+END
+DataController.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/tap-core-data/!svn/ver/296/trunk/TeachersAssistantCoreData/TeachersAssistant/DataController.m
+END
+PhoneNumber.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/PhoneNumber.h
+END
+UpgradeViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/UpgradeViewController.h
+END
+Student.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/tap-core-data/!svn/ver/69/trunk/TeachersAssistantCoreData/TeachersAssistant/Student.h
+END
+ParentEmailerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentEmailerViewController.h
+END
+PhoneNumber.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/PhoneNumber.m
+END
+PickerInfoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/PickerInfoViewController.h
+END
+greenCheck.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/217/trunk/TeachersAssistantCoreData/TeachersAssistant/greenCheck.png
+END
+UpgradeViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/UpgradeViewController.m
+END
+Student.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/tap-core-data/!svn/ver/69/trunk/TeachersAssistantCoreData/TeachersAssistant/Student.m
+END
+ParentEmailerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentEmailerViewController.m
+END
+PickerInfoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/PickerInfoViewController.m
+END
+ActionFieldInfoDetailsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/tap-core-data/!svn/ver/77/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionFieldInfoDetailsViewController.xib
+END
+ParentInfoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/4/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentInfoViewController.xib
+END
+DropboxImportViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/88/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxImportViewController.xib
+END
+IconLite.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/IconLite.png
+END
+PersonInfoViewController_iPad.xib
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/249/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonInfoViewController_iPad.xib
+END
+DiagnosticViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/tap-core-data/!svn/ver/36/trunk/TeachersAssistantCoreData/TeachersAssistant/DiagnosticViewController.xib
+END
+NSString+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/tap-core-data/!svn/ver/48/trunk/TeachersAssistantCoreData/TeachersAssistant/NSString+BTIAdditions.h
+END
+Period.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/tap-core-data/!svn/ver/47/trunk/TeachersAssistantCoreData/TeachersAssistant/Period.h
+END
+ScreenLockViewController_iPad.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/33/trunk/TeachersAssistantCoreData/TeachersAssistant/ScreenLockViewController_iPad.h
+END
+NSString+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/tap-core-data/!svn/ver/48/trunk/TeachersAssistantCoreData/TeachersAssistant/NSString+BTIAdditions.m
+END
+DCRoundSwitchKnobLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/tap-core-data/!svn/ver/221/trunk/TeachersAssistantCoreData/TeachersAssistant/DCRoundSwitchKnobLayer.h
+END
+ActionDetailViewController_iPad.xib
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/103/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailViewController_iPad.xib
+END
+Period.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/tap-core-data/!svn/ver/47/trunk/TeachersAssistantCoreData/TeachersAssistant/Period.m
+END
+ScreenLockViewController_iPad.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ScreenLockViewController_iPad.m
+END
+PhoneNumber+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/56/trunk/TeachersAssistantCoreData/TeachersAssistant/PhoneNumber+BTIAdditions.h
+END
+ActionDetailBooleanCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/89/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailBooleanCell.xib
+END
+MediaInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/MediaInfo.h
+END
+TermInfo+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/tap-core-data/!svn/ver/56/trunk/TeachersAssistantCoreData/TeachersAssistant/TermInfo+BTIAdditions.h
+END
+DCRoundSwitchKnobLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/tap-core-data/!svn/ver/221/trunk/TeachersAssistantCoreData/TeachersAssistant/DCRoundSwitchKnobLayer.m
+END
+EmailBlastPersonPickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/tap-core-data/!svn/ver/147/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailBlastPersonPickerViewController.xib
+END
+PhoneNumber+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/95/trunk/TeachersAssistantCoreData/TeachersAssistant/PhoneNumber+BTIAdditions.m
+END
+DefinePINViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/DefinePINViewController.h
+END
+MediaInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/MediaInfo.m
+END
+UIImage+Alpha.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/UIImage+Alpha.h
+END
+TermInfo+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/tap-core-data/!svn/ver/126/trunk/TeachersAssistantCoreData/TeachersAssistant/TermInfo+BTIAdditions.m
+END
+EmailBlastPersonPickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailBlastPersonPickerViewController.h
+END
+FAQViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/tap-core-data/!svn/ver/41/trunk/TeachersAssistantCoreData/TeachersAssistant/FAQViewController.xib
+END
+ColorInfo+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/tap-core-data/!svn/ver/56/trunk/TeachersAssistantCoreData/TeachersAssistant/ColorInfo+BTIAdditions.h
+END
+DefinePINViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/DefinePINViewController.m
+END
+UIImage+Alpha.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/tap-core-data/!svn/ver/277/trunk/TeachersAssistantCoreData/TeachersAssistant/UIImage+Alpha.m
+END
+TeachersAssistant-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/283/trunk/TeachersAssistantCoreData/TeachersAssistant/TeachersAssistant-Prefix.pch
+END
+EmailBlastPersonPickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailBlastPersonPickerViewController.m
+END
+ColorInfo+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/tap-core-data/!svn/ver/278/trunk/TeachersAssistantCoreData/TeachersAssistant/ColorInfo+BTIAdditions.m
+END
+ActionValue.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionValue.h
+END
+AssignActionsToPersonsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/tap-core-data/!svn/ver/14/trunk/TeachersAssistantCoreData/TeachersAssistant/AssignActionsToPersonsViewController.xib
+END
+ParentEmailInfoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentEmailInfoViewController.h
+END
+switchBlueBg.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/5/trunk/TeachersAssistantCoreData/TeachersAssistant/switchBlueBg.png
+END
+ActionValue.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionValue.m
+END
+ImportCSVViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/41/trunk/TeachersAssistantCoreData/TeachersAssistant/ImportCSVViewController.xib
+END
+AssignActionsToPersonsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/AssignActionsToPersonsViewController.h
+END
+ParentEmailInfoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/291/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentEmailInfoViewController.m
+END
+TermInfoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/TermInfoViewController.h
+END
+PersonInfoCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/tap-core-data/!svn/ver/33/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonInfoCell.h
+END
+ColorInfoPickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/tap-core-data/!svn/ver/37/trunk/TeachersAssistantCoreData/TeachersAssistant/ColorInfoPickerViewController.xib
+END
+ActionDetailLongTextCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/89/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailLongTextCell.h
+END
+EmailBlastToAddressViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailBlastToAddressViewController.h
+END
+ReportOptionsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ReportOptionsViewController.h
+END
+AssignActionsToPersonsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/AssignActionsToPersonsViewController.m
+END
+TermInfoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/TermInfoViewController.m
+END
+PersonInfoCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/5/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonInfoCell.m
+END
+ParentPhoneInfoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/249/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentPhoneInfoViewController.xib
+END
+UICustomSwitch.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/tap-core-data/!svn/ver/33/trunk/TeachersAssistantCoreData/TeachersAssistant/UICustomSwitch.h
+END
+ActionDetailLongTextCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/89/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailLongTextCell.m
+END
+EmailBlastToAddressViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailBlastToAddressViewController.m
+END
+ReportOptionsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ReportOptionsViewController.m
+END
+StudentDetailsTitleViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/StudentDetailsTitleViewController.h
+END
+CSVTableCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/tap-core-data/!svn/ver/262/trunk/TeachersAssistantCoreData/TeachersAssistant/CSVTableCell.xib
+END
+ActionDetailImageCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/tap-core-data/!svn/ver/89/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailImageCell.xib
+END
+UICustomSwitch.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/tap-core-data/!svn/ver/33/trunk/TeachersAssistantCoreData/TeachersAssistant/UICustomSwitch.m
+END
+StudentDetailsTitleViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/StudentDetailsTitleViewController.m
+END
+Parent+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/tap-core-data/!svn/ver/80/trunk/TeachersAssistantCoreData/TeachersAssistant/Parent+BTIAdditions.h
+END
+HomeDetailViewController_iPad.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/HomeDetailViewController_iPad.h
+END
+Parent+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/Parent+BTIAdditions.m
+END
+CommonAttributes+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/95/trunk/TeachersAssistantCoreData/TeachersAssistant/CommonAttributes+BTIAdditions.h
+END
+UITableView+MDAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/tap-core-data/!svn/ver/33/trunk/TeachersAssistantCoreData/TeachersAssistant/UITableView+MDAdditions.h
+END
+HomeDetailViewController_iPad.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/HomeDetailViewController_iPad.m
+END
+CommonAttributes+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/95/trunk/TeachersAssistantCoreData/TeachersAssistant/CommonAttributes+BTIAdditions.m
+END
+BTIViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/BTIViewController.h
+END
+Person+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/tap-core-data/!svn/ver/252/trunk/TeachersAssistantCoreData/TeachersAssistant/Person+BTIAdditions.h
+END
+UITableView+MDAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/UITableView+MDAdditions.m
+END
+crumpled-paper-texture_750x300.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/89/trunk/TeachersAssistantCoreData/TeachersAssistant/crumpled-paper-texture_750x300.png
+END
+BTIViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/BTIViewController.m
+END
+TermInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/TermInfo.h
+END
+AssignActionsClassPickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/tap-core-data/!svn/ver/24/trunk/TeachersAssistantCoreData/TeachersAssistant/AssignActionsClassPickerViewController.xib
+END
+paper_background_320x768.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/tap-core-data/!svn/ver/89/trunk/TeachersAssistantCoreData/TeachersAssistant/paper_background_320x768.png
+END
+Person+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/tap-core-data/!svn/ver/295/trunk/TeachersAssistantCoreData/TeachersAssistant/Person+BTIAdditions.m
+END
+PersonDetailValue.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/tap-core-data/!svn/ver/250/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonDetailValue.h
+END
+HomeViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/HomeViewController.h
+END
+TermInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/TermInfo.m
+END
+ActionDetailPickerCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/89/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailPickerCell.xib
+END
+IconLite-72.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/IconLite-72.png
+END
+DateDetailViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/DateDetailViewController.xib
+END
+PersonDetailValue.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/tap-core-data/!svn/ver/250/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonDetailValue.m
+END
+HomeViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/tap-core-data/!svn/ver/293/trunk/TeachersAssistantCoreData/TeachersAssistant/HomeViewController.m
+END
+SettingsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/SettingsViewController.h
+END
+ActionDetailColorCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailColorCell.h
+END
+ActionDetailBooleanCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/223/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailBooleanCell.h
+END
+ExportChooserViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ExportChooserViewController.h
+END
+SettingsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/SettingsViewController.m
+END
+ActionDetailColorCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailColorCell.m
+END
+ActionDetailBooleanCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/223/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailBooleanCell.m
+END
+ExportChooserViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ExportChooserViewController.m
+END
+TermInfoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/10/trunk/TeachersAssistantCoreData/TeachersAssistant/TermInfoViewController.xib
+END
+PersonInfoCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/tap-core-data/!svn/ver/252/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonInfoCell.xib
+END
+DCRoundSwitchOutlineLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/tap-core-data/!svn/ver/221/trunk/TeachersAssistantCoreData/TeachersAssistant/DCRoundSwitchOutlineLayer.h
+END
+PersonActionsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/189/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonActionsViewController.xib
+END
+ScreenLockViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ScreenLockViewController.xib
+END
+DCRoundSwitchOutlineLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/tap-core-data/!svn/ver/221/trunk/TeachersAssistantCoreData/TeachersAssistant/DCRoundSwitchOutlineLayer.m
+END
+UpgradeViewController_iPad.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/UpgradeViewController_iPad.h
+END
+TermInfoDetailsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/tap-core-data/!svn/ver/10/trunk/TeachersAssistantCoreData/TeachersAssistant/TermInfoDetailsViewController.xib
+END
+ClassPeriodPersonPickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/tap-core-data/!svn/ver/15/trunk/TeachersAssistantCoreData/TeachersAssistant/ClassPeriodPersonPickerViewController.xib
+END
+UpgradeViewController_iPad.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/UpgradeViewController_iPad.m
+END
+ActionPickerValuesViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionPickerValuesViewController.h
+END
+GradingPeriodsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/tap-core-data/!svn/ver/178/trunk/TeachersAssistantCoreData/TeachersAssistant/GradingPeriodsViewController.xib
+END
+ActionFieldInfoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionFieldInfoViewController.h
+END
+switchThumb.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/5/trunk/TeachersAssistantCoreData/TeachersAssistant/switchThumb.png
+END
+ActionPickerValuesViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionPickerValuesViewController.m
+END
+ActionDetailCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/tap-core-data/!svn/ver/89/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailCell.h
+END
+ActionFieldInfoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionFieldInfoViewController.m
+END
+RandomClassPickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/RandomClassPickerViewController.h
+END
+StudentOrderChooserViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/StudentOrderChooserViewController.h
+END
+ActionDetailCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/tap-core-data/!svn/ver/89/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailCell.m
+END
+DropboxImportViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxImportViewController.h
+END
+RandomClassPickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/RandomClassPickerViewController.m
+END
+StudentOrderChooserViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/StudentOrderChooserViewController.m
+END
+redX@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/217/trunk/TeachersAssistantCoreData/TeachersAssistant/redX@2x.png
+END
+iDisciplineDocumentIcon64.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/iDisciplineDocumentIcon64.png
+END
+DropboxImportViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/DropboxImportViewController.m
+END
+DCRoundSwitchToggleLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/221/trunk/TeachersAssistantCoreData/TeachersAssistant/DCRoundSwitchToggleLayer.h
+END
+iDisciplineDocumentIcon22@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/iDisciplineDocumentIcon22@2x.png
+END
+logo_twitter.png
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/logo_twitter.png
+END
+LongTextDetailViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/LongTextDetailViewController.xib
+END
+ClassPeriod+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/227/trunk/TeachersAssistantCoreData/TeachersAssistant/ClassPeriod+BTIAdditions.h
+END
+PickerValue+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/56/trunk/TeachersAssistantCoreData/TeachersAssistant/PickerValue+BTIAdditions.h
+END
+DCRoundSwitchToggleLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/221/trunk/TeachersAssistantCoreData/TeachersAssistant/DCRoundSwitchToggleLayer.m
+END
+Icon-72@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/211/trunk/TeachersAssistantCoreData/TeachersAssistant/Icon-72@2x.png
+END
+GTMDefines.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/41/trunk/TeachersAssistantCoreData/TeachersAssistant/GTMDefines.h
+END
+PersonFilterPickerInfoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonFilterPickerInfoViewController.h
+END
+TeachersAssistant-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/295/trunk/TeachersAssistantCoreData/TeachersAssistant/TeachersAssistant-Info.plist
+END
+ClassPeriod+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/227/trunk/TeachersAssistantCoreData/TeachersAssistant/ClassPeriod+BTIAdditions.m
+END
+AssignActionsClassPickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/AssignActionsClassPickerViewController.h
+END
+PickerValue+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/268/trunk/TeachersAssistantCoreData/TeachersAssistant/PickerValue+BTIAdditions.m
+END
+PersonFilterPickerInfoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonFilterPickerInfoViewController.m
+END
+DefaultActionValuesViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/tap-core-data/!svn/ver/12/trunk/TeachersAssistantCoreData/TeachersAssistant/DefaultActionValuesViewController.xib
+END
+PersonClassPeriodPickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonClassPeriodPickerViewController.h
+END
+PersonInfoParentCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/tap-core-data/!svn/ver/80/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonInfoParentCell.h
+END
+AssignActionsClassPickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/AssignActionsClassPickerViewController.m
+END
+BTIErrorCategories.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/tap-core-data/!svn/ver/288/trunk/TeachersAssistantCoreData/TeachersAssistant/BTIErrorCategories.h
+END
+UIColorTransformer.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/tap-core-data/!svn/ver/37/trunk/TeachersAssistantCoreData/TeachersAssistant/UIColorTransformer.h
+END
+DefaultActionValuesViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/DefaultActionValuesViewController.h
+END
+PersonClassPeriodPickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonClassPeriodPickerViewController.m
+END
+PersonInfoParentCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/tap-core-data/!svn/ver/80/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonInfoParentCell.m
+END
+BTIErrorCategories.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/tap-core-data/!svn/ver/288/trunk/TeachersAssistantCoreData/TeachersAssistant/BTIErrorCategories.m
+END
+UIColorTransformer.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/tap-core-data/!svn/ver/37/trunk/TeachersAssistantCoreData/TeachersAssistant/UIColorTransformer.m
+END
+paper_background_1004x768.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/89/trunk/TeachersAssistantCoreData/TeachersAssistant/paper_background_1004x768.png
+END
+DefaultActionValuesViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/DefaultActionValuesViewController.m
+END
+ClassPeriod.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/240/trunk/TeachersAssistantCoreData/TeachersAssistant/ClassPeriod.h
+END
+CSVClassPickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/tap-core-data/!svn/ver/206/trunk/TeachersAssistantCoreData/TeachersAssistant/CSVClassPickerViewController.xib
+END
+ClassPeriod.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/240/trunk/TeachersAssistantCoreData/TeachersAssistant/ClassPeriod.m
+END
+DCRoundSwitch.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/tap-core-data/!svn/ver/221/trunk/TeachersAssistantCoreData/TeachersAssistant/DCRoundSwitch.h
+END
+ActionPickerValuesViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/9/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionPickerValuesViewController.xib
+END
+DCRoundSwitch.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/tap-core-data/!svn/ver/221/trunk/TeachersAssistantCoreData/TeachersAssistant/DCRoundSwitch.m
+END
+ColorInfoPickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ColorInfoPickerViewController.h
+END
+JumpChooserViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/67/trunk/TeachersAssistantCoreData/TeachersAssistant/JumpChooserViewController.xib
+END
+TermInfoDetailsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/TermInfoDetailsViewController.h
+END
+Parent.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/Parent.h
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/tap-core-data/!svn/ver/33/trunk/TeachersAssistantCoreData/TeachersAssistant/main.m
+END
+ActionDetailViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/5/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailViewController.xib
+END
+GTMBase64.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/tap-core-data/!svn/ver/41/trunk/TeachersAssistantCoreData/TeachersAssistant/GTMBase64.h
+END
+ColorInfoPickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ColorInfoPickerViewController.m
+END
+TermInfoDetailsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/TermInfoDetailsViewController.m
+END
+Parent.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/Parent.m
+END
+GradingPeriodsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/GradingPeriodsViewController.h
+END
+GTMBase64.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/tap-core-data/!svn/ver/41/trunk/TeachersAssistantCoreData/TeachersAssistant/GTMBase64.m
+END
+EmailBlastRecipientsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailBlastRecipientsViewController.h
+END
+ResourcesViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/41/trunk/TeachersAssistantCoreData/TeachersAssistant/ResourcesViewController.xib
+END
+GradingPeriodsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/GradingPeriodsViewController.m
+END
+EmailBlastRecipientsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailBlastRecipientsViewController.m
+END
+ResourcesViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ResourcesViewController.h
+END
+Icon-72.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/Icon-72.png
+END
+PersonFilterViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonFilterViewController.h
+END
+AllPersonsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/5/trunk/TeachersAssistantCoreData/TeachersAssistant/AllPersonsViewController.xib
+END
+ClassPeriodPersonsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/15/trunk/TeachersAssistantCoreData/TeachersAssistant/ClassPeriodPersonsViewController.xib
+END
+IconLite@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/IconLite@2x.png
+END
+PersonInfoViewController_iPad.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/249/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonInfoViewController_iPad.h
+END
+ResourcesViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ResourcesViewController.m
+END
+ScreenLockViewController_iPad.xib
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/tap-core-data/!svn/ver/26/trunk/TeachersAssistantCoreData/TeachersAssistant/ScreenLockViewController_iPad.xib
+END
+PersonFilterViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonFilterViewController.m
+END
+AllPersonsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/287/trunk/TeachersAssistantCoreData/TeachersAssistant/AllPersonsViewController.h
+END
+ClassPeriodPersonsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/287/trunk/TeachersAssistantCoreData/TeachersAssistant/ClassPeriodPersonsViewController.h
+END
+PersonInfoViewController_iPad.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonInfoViewController_iPad.m
+END
+RIButtonItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/66/trunk/TeachersAssistantCoreData/TeachersAssistant/RIButtonItem.h
+END
+AllPersonsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/296/trunk/TeachersAssistantCoreData/TeachersAssistant/AllPersonsViewController.m
+END
+ClassPeriodPersonsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/296/trunk/TeachersAssistantCoreData/TeachersAssistant/ClassPeriodPersonsViewController.m
+END
+ReportClassPickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/180/trunk/TeachersAssistantCoreData/TeachersAssistant/ReportClassPickerViewController.xib
+END
+RIButtonItem.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/66/trunk/TeachersAssistantCoreData/TeachersAssistant/RIButtonItem.m
+END
+NSManagedObject+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/287/trunk/TeachersAssistantCoreData/TeachersAssistant/NSManagedObject+BTIAdditions.h
+END
+ExportChooserViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/ExportChooserViewController.xib
+END
+DateDetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/DateDetailViewController.h
+END
+NSManagedObject+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/295/trunk/TeachersAssistantCoreData/TeachersAssistant/NSManagedObject+BTIAdditions.m
+END
+MediaInfo+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/tap-core-data/!svn/ver/56/trunk/TeachersAssistantCoreData/TeachersAssistant/MediaInfo+BTIAdditions.h
+END
+DateDetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/DateDetailViewController.m
+END
+FAQViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/FAQViewController.h
+END
+ParentEmailInfoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/249/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentEmailInfoViewController.xib
+END
+MediaInfo+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/tap-core-data/!svn/ver/95/trunk/TeachersAssistantCoreData/TeachersAssistant/MediaInfo+BTIAdditions.m
+END
+UIAlertView+Blocks.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/tap-core-data/!svn/ver/66/trunk/TeachersAssistantCoreData/TeachersAssistant/UIAlertView+Blocks.h
+END
+CSVPersonPickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/206/trunk/TeachersAssistantCoreData/TeachersAssistant/CSVPersonPickerViewController.xib
+END
+PersonFilterColorViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonFilterColorViewController.h
+END
+FAQViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/FAQViewController.m
+END
+UIActionSheet+Blocks.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/tap-core-data/!svn/ver/66/trunk/TeachersAssistantCoreData/TeachersAssistant/UIActionSheet+Blocks.h
+END
+UIAlertView+Blocks.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/tap-core-data/!svn/ver/66/trunk/TeachersAssistantCoreData/TeachersAssistant/UIAlertView+Blocks.m
+END
+UpgradeViewController_iPad.xib
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/294/trunk/TeachersAssistantCoreData/TeachersAssistant/UpgradeViewController_iPad.xib
+END
+PersonFilterColorViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonFilterColorViewController.m
+END
+StudentDetailsListViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/tap-core-data/!svn/ver/251/trunk/TeachersAssistantCoreData/TeachersAssistant/StudentDetailsListViewController.xib
+END
+UIActionSheet+Blocks.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/tap-core-data/!svn/ver/70/trunk/TeachersAssistantCoreData/TeachersAssistant/UIActionSheet+Blocks.m
+END
+ClassPeriodInfoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ClassPeriodInfoViewController.h
+END
+RandomizerInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/tap-core-data/!svn/ver/227/trunk/TeachersAssistantCoreData/TeachersAssistant/RandomizerInfo.h
+END
+ScreenLockViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ScreenLockViewController.h
+END
+ClassPeriodInfoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ClassPeriodInfoViewController.m
+END
+ColorInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/222/trunk/TeachersAssistantCoreData/TeachersAssistant/ColorInfo.h
+END
+RandomizerInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/tap-core-data/!svn/ver/227/trunk/TeachersAssistantCoreData/TeachersAssistant/RandomizerInfo.m
+END
+ScreenLockViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ScreenLockViewController.m
+END
+EmailBlastRecipientsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/tap-core-data/!svn/ver/155/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailBlastRecipientsViewController.xib
+END
+ParentPhoneInfoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentPhoneInfoViewController.h
+END
+RandomClassPickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/216/trunk/TeachersAssistantCoreData/TeachersAssistant/RandomClassPickerViewController.xib
+END
+ColorInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/222/trunk/TeachersAssistantCoreData/TeachersAssistant/ColorInfo.m
+END
+CommonAttributes.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/CommonAttributes.h
+END
+iDisciplineDocumentIcon320@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/212/trunk/TeachersAssistantCoreData/TeachersAssistant/iDisciplineDocumentIcon320@2x.png
+END
+BTIPersonFilterPointsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/tap-core-data/!svn/ver/276/trunk/TeachersAssistantCoreData/TeachersAssistant/BTIPersonFilterPointsViewController.xib
+END
+ParentPhoneInfoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/291/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentPhoneInfoViewController.m
+END
+ImportViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/tap-core-data/!svn/ver/41/trunk/TeachersAssistantCoreData/TeachersAssistant/ImportViewController.xib
+END
+CommonAttributes.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/CommonAttributes.m
+END
+PersonFilterDateViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/18/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonFilterDateViewController.xib
+END
+PersonDetailInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/tap-core-data/!svn/ver/250/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonDetailInfo.h
+END
+iDisciplineDocumentIcon22.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/iDisciplineDocumentIcon22.png
+END
+reverse.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/tap-core-data/!svn/ver/246/trunk/TeachersAssistantCoreData/TeachersAssistant/reverse.png
+END
+ImportViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ImportViewController.h
+END
+PersonFilterDateViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonFilterDateViewController.h
+END
+ParentMessagerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/tap-core-data/!svn/ver/258/trunk/TeachersAssistantCoreData/TeachersAssistant/ParentMessagerViewController.xib
+END
+PersonDetailInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/tap-core-data/!svn/ver/250/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonDetailInfo.m
+END
+ImportViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ImportViewController.m
+END
+PersonFilterDateViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonFilterDateViewController.m
+END
+EmailActionPickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailActionPickerViewController.h
+END
+ColorInfoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/39/trunk/TeachersAssistantCoreData/TeachersAssistant/ColorInfoViewController.xib
+END
+iDisciplineDocumentIcon320.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/17/trunk/TeachersAssistantCoreData/TeachersAssistant/iDisciplineDocumentIcon320.png
+END
+EmailActionPickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailActionPickerViewController.m
+END
+ColorInfoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ColorInfoViewController.h
+END
+ReportPersonPickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/tap-core-data/!svn/ver/180/trunk/TeachersAssistantCoreData/TeachersAssistant/ReportPersonPickerViewController.xib
+END
+EmailAddress.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailAddress.h
+END
+ActionFieldInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionFieldInfo.h
+END
+ActionDetailPickerCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailPickerCell.h
+END
+ColorInfoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ColorInfoViewController.m
+END
+FieldNameInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/47/trunk/TeachersAssistantCoreData/TeachersAssistant/FieldNameInfo.h
+END
+EmailAddress.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailAddress.m
+END
+AssignActionsFillerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/AssignActionsFillerViewController.h
+END
+ActionFieldInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionFieldInfo.m
+END
+ActionDetailPickerCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailPickerCell.m
+END
+RandomPersonPickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/RandomPersonPickerViewController.h
+END
+FieldNameInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/47/trunk/TeachersAssistantCoreData/TeachersAssistant/FieldNameInfo.m
+END
+PersonFilterColorViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/49/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonFilterColorViewController.xib
+END
+EmailAddress+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/56/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailAddress+BTIAdditions.h
+END
+ActionFieldInfo+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/47/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionFieldInfo+BTIAdditions.h
+END
+AssignActionsFillerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/AssignActionsFillerViewController.m
+END
+RandomPersonPickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/RandomPersonPickerViewController.m
+END
+ActionImageViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/tap-core-data/!svn/ver/50/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionImageViewController.xib
+END
+EmailAddress+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/tap-core-data/!svn/ver/95/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailAddress+BTIAdditions.m
+END
+ActionFieldInfo+BTIAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionFieldInfo+BTIAdditions.m
+END
+PersonFilterBooleanViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonFilterBooleanViewController.h
+END
+Action.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/Action.h
+END
+switchOffPlain.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/tap-core-data/!svn/ver/5/trunk/TeachersAssistantCoreData/TeachersAssistant/switchOffPlain.png
+END
+NSObject+PWObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/tap-core-data/!svn/ver/242/trunk/TeachersAssistantCoreData/TeachersAssistant/NSObject+PWObject.h
+END
+EmailBlastToAddressViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/tap-core-data/!svn/ver/153/trunk/TeachersAssistantCoreData/TeachersAssistant/EmailBlastToAddressViewController.xib
+END
+ActionDetailLongTextCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/tap-core-data/!svn/ver/89/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionDetailLongTextCell.xib
+END
+PersonFilterBooleanViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonFilterBooleanViewController.m
+END
+UpgradeViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/UpgradeViewController.xib
+END
+Action.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/tap-core-data/!svn/ver/55/trunk/TeachersAssistantCoreData/TeachersAssistant/Action.m
+END
+PersonActionsCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/tap-core-data/!svn/ver/223/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonActionsCell.xib
+END
+AllClassPeriodsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/AllClassPeriodsViewController.h
+END
+NSObject+PWObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/tap-core-data/!svn/ver/242/trunk/TeachersAssistantCoreData/TeachersAssistant/NSObject+PWObject.m
+END
+ImportCSVViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/ImportCSVViewController.h
+END
+Action+BTIAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/tap-core-data/!svn/ver/223/trunk/TeachersAssistantCoreData/TeachersAssistant/Action+BTIAdditions.h
+END
+PersonActionsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/tap-core-data/!svn/ver/284/trunk/TeachersAssistantCoreData/TeachersAssistant/PersonActionsViewController.h
+END
+ActionFieldInfoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/tap-core-data/!svn/ver/10/trunk/TeachersAssistantCoreData/TeachersAssistant/ActionFieldInfoViewController.xib
+END
+AllClassPeriodsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/tap-core-data/!svn/ver/285/trunk/TeachersAssistantCoreData/TeachersAssistant/AllClassPeriodsViewController.m
+END
+StudentDetailsTitleViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/tap-core-data/!svn/ver/251/trunk/TeachersAssistantCoreData/TeachersAssistant/StudentDetailsTitleViewController.xib
+END

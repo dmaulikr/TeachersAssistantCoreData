@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/tap-core-data/!svn/ver/277/trunk/TeachersAssistantCoreData/TeachersAssistant/MiniZip
+END
+ioapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/MiniZip/ioapi.c
+END
+zip.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/tap-core-data/!svn/ver/78/trunk/TeachersAssistantCoreData/TeachersAssistant/MiniZip/zip.c
+END
+unzip.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/tap-core-data/!svn/ver/277/trunk/TeachersAssistantCoreData/TeachersAssistant/MiniZip/unzip.c
+END
+crypt.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/MiniZip/crypt.h
+END
+ioapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/MiniZip/ioapi.h
+END
+mztools.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/MiniZip/mztools.c
+END
+zip.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/MiniZip/zip.h
+END
+unzip.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/MiniZip/unzip.h
+END
+mztools.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/tap-core-data/!svn/ver/53/trunk/TeachersAssistantCoreData/TeachersAssistant/MiniZip/mztools.h
+END
